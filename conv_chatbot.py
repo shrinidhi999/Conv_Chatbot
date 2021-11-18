@@ -16,7 +16,7 @@ tokenizer, model = load_data()
 
 st.write("Welcome to the Chatbot. I am still learning, please be patient")
 
-inp = st.text_input('Naman:')
+inp = st.text_input('User:')
 
 if 'count' not in st.session_state or st.session_state.count == 6:
 	st.session_state.count = 0	
